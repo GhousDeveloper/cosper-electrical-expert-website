@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #1e293b;
+    background-color: #ffffff;
+    overflow-x: hidden;
+  }
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive;
+}
+
+/* Custom smooth yellow gradient matching reference image */
+.bg-cospert-hero {
+  background: linear-gradient(135deg, #FDB813 0%, #F59E0B 50%, #EF8C00 100%);
+}
+
+.bg-cospert-hero-radial {
+  background: radial-gradient(circle at 75% 35%, #FFCA28 0%, #FBBF24 45%, #F59E0B 100%);
+}
+
+/* Pulse animation for emergency tag */
+@keyframes soft-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.03); }
+}
+
+.animate-soft-pulse {
+  animation: soft-pulse 3s ease-in-out infinite;
+}

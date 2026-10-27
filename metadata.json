@@ -1,0 +1,6 @@
+{
+  "name": "Cospert - Trusted Electrical Experts",
+  "description": "Powering Homes with Safety & Reliability. Professional electrical solutions for homes and businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
